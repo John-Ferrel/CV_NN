@@ -18,12 +18,16 @@ Open the file "train_test.py", set the patameter job to "train", and then run
 Open the file "train_test.py", set the patameter job to "test", and then run
 
 ### Parameter
-Net: the network, including lays and activations\[ReLU,Sigmoid,Tanh\]
+**Net**: the network, including lays and activations\[ReLU,Sigmoid,Tanh\]
 
-lr,lr_scheduler: Set the learning rate and the scheduler of updating\[steplr,mulitisteplr,explr\]
 
-L2_norm_rate(deacy):In the SGD system optimizer without introducing momentum, weight decay is completely equivalent to L2 regularization.
+**lr, lr_scheduler**: Set the learning rate and the scheduler of updating\[steplr,mulitisteplr,explr\]
 
-batch_size:Usually 2^k
 
-epochs:Set the maximum epochs, and if there are multiple epochs with no significant decrease, the training will be automatically stopped
+**L2_norm_rate(deacy)**:In the SGD system optimizer without introducing momentum, weight decay is completely equivalent to L2 regularization.
+
+
+**batch_size**:Usually 2^k
+
+
+**epochs**:Set the maximum epochs, and if there are multiple epochs with no significant decrease, the training will be automatically stopped
