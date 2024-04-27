@@ -5,7 +5,9 @@ PJ1 of CV, a three-layer linear neural network for image classification
 
 ### Environment
 python                    3.12.3
+
 numpy                     1.26.4
+
 matplotlib                3.8.4 
 
 ### Data 
