@@ -16,7 +16,7 @@ class Linear(Layer):
         self.bias = bias
 
         # 正态分布随机初始化参数矩阵W，乘修正值 2/（sqrt(n)
-        # 这里为什么要乘 修正值呢？留待后续研究了
+        # He初始化，使用ReLu
         W = np.random.randn(*shape) * (2 / shape[0] ** 0.5)
         # W = W = np.random.randn(*shape)
         
